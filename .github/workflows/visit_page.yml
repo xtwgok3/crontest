@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Make HTTP request
         run: |
-          curl https://p-web.onrender.com  # Reemplaza con la URL que deseas visitar
+          curl -f https://p-web.onrender.com || echo "Request failed, but continuing..."  # Ignora errores y continua
