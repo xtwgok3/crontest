@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Make HTTP request
         run: |
-          curl -f https://p-web.onrender.com || echo "Request failed, but continuing..."  # Ignora errores y continua
+          curl -f https://lucas-ecommerce.onrender.com || echo "Request failed, but continuing..."  # Ignora errores y continua
           curl -f https://lucas-ecommerce.onrender.com || echo "Request to lucas-ecommerce failed, but continuing..."  # Ignora errores y continua
